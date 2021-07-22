@@ -1,0 +1,127 @@
+div {
+  /* outline: 1px dashed lime; */
+  margin: 0;
+  /* padding: 0;  */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+header {
+  background-color: white;
+  /* min-height: 100px; */
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: #146aeb;
+}
+
+header span {
+  color: black;
+}
+header .container {
+  justify-content: space-between;
+}
+
+.showcase {
+  /* min-height: 557px; */
+  min-height: 190px;
+  background: #146aeb;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.showcase h1 {
+  font-size: 40px;
+}
+
+/* .showcase .container {
+  justify-content: space-between;
+} */
+
+.showcase input[type="support"] {
+  width: 300px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+.sentButton {
+  height: 35px;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+}
+
+.showcase form {
+  display: flex;
+  /* flex-flow: column; */
+  align-items: center;
+}
+
+.showcase form > * {
+  margin: 10px;
+}
+
+/* Boxes */
+
+.chatBox,
+.callBox {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chatBox {
+  min-height: 150px;
+}
+
+.boxes h2 {
+  color: #146aeb;
+}
+
+.boxes .container {
+  justify-content: space-evenly;
+}
+
+.othersHead {
+  color: #146aeb;
+  margin-left: 105px;
+}
+
+.others .container {
+  flex-direction: column;
+  color: #146aeb;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+}
+
+.appHorizontal,
+.appVerticle {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.footContactUs {
+  /* min-height: 60px; */
+  color: whitesmoke;
+  background-color: skyblue;
+  /* background-color: #146aeb; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appHorizontal img {
+  width: 50px;
+  height: 50px;
+}

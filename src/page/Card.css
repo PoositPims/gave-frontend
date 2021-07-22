@@ -1,0 +1,143 @@
+div {
+  outline: 1px dashed lime;
+  margin: 0;
+  /* padding: 0;  */
+}
+
+.containerCard {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* containerCard1 { */
+/* width: 80%; */
+/* } */
+
+.brandingCard {
+  margin-left: 135px;
+}
+
+/* header.................................................... */
+
+header .containerCard {
+  background-color: #146aeb;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* width: 80%; */
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  padding: 0 20px;
+}
+
+header nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.supportCard {
+  width: 300px;
+  height: 15px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+nav {
+  flex-direction: column;
+  margin: 10px;
+}
+
+.searchCard {
+  margin-top: 10px;
+  /* display: flex; */
+}
+
+.containerCard form {
+  display: flex;
+}
+
+.sentButtonCard {
+  height: 23px;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+}
+
+form > * {
+  margin: 5px;
+}
+
+/* showcaseCard............................................ */
+
+.showcaseCard {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.water {
+  border-bottom: solid;
+  border-width: 1px;
+  background-color: #146aeb;
+  color: white;
+  border-color: black;
+  padding: 5px;
+  margin: 0;
+}
+
+.boxCard {
+  border: solid;
+  border-width: 1px;
+}
+
+.waterInside {
+  display: flex;
+}
+
+.price {
+  /* margin-left: 150px; */
+  margin: 0 20px 0 150px;
+}
+
+.discount {
+  border-style: solid;
+  margin: 0 20px 0 150px;
+  background-color: #146aeb;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+  /* display: flex; */
+}
+
+img {
+  margin-left: 20px;
+}
+
+.navShowcase {
+  margin: 0;
+}
+
+.navShowcase2 {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 0;   */
+}
+
+.navShowcase2 h5 {
+  /* align-items: flex-end; */
+  margin: 0;
+}

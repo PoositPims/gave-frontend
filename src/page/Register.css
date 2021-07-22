@@ -1,0 +1,97 @@
+div {
+  /* outline: 1px dashed lime; */
+  margin: 0;
+  /* padding: 0;  */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+header .container {
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: #146aeb;
+}
+
+header span {
+  color: black;
+}
+
+header .container {
+  justify-content: space-between;
+}
+
+.showcase {
+  /* min-height: 557px; */
+  min-height: 518px;
+  background: #146aeb;
+  color: white;
+  justify-content: center;
+  /* text-align: center; */
+  display: flex;
+}
+
+.showcase .container {
+  flex-flow: column;
+  align-items: center;
+}
+
+/* register........................................... */
+
+.register {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  width: 360px;
+  /* margin: 0px;
+  padding: 0px; */
+}
+
+/* .name {
+} */
+
+.title {
+  background-color: #146aeb;
+  min-height: 20px;
+  margin: 0;
+}
+
+.alternative {
+  color: black;
+  width: 300px;
+}
+
+.whiteBox {
+  height: 400px;
+  width: 800px;
+  background: white;
+}
+
+.insideWhiteBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.registerButton {
+  justify-content: space-between;
+  margin: 50px;
+  width: 70px;
+  /* flex-direction: column; */
+  /* align-items: flex-end */
+}
+
+.footRegister {
+  /* min-height: 60px; */
+  color: whitesmoke;
+  background-color: skyblue;
+  /* background-color: #146aeb; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
