@@ -8,7 +8,7 @@ function Register() {
             {/* <div className = 'navLogo'><h1>Gave</h1>
             <h1>Login</h1>
             </div> */}
-            <header>
+            <header className='headRegister'>
                 <div className ='container'>
                 <div className="branding"><h1>GAVE <span>เข้าสู่ระบบ</span></h1></div>
                 <nav><h3>ต้องการความช่วยเหลือ ?</h3></nav>

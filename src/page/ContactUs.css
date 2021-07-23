@@ -10,7 +10,7 @@ div {
   display: flex;
 }
 
-header {
+.headContact {
   background-color: white;
   /* min-height: 100px; */
   justify-content: space-between;
@@ -19,10 +19,10 @@ header {
   color: #146aeb;
 }
 
-header span {
+.headContact span {
   color: black;
 }
-header .container {
+.headContact .container {
   justify-content: space-between;
 }
 

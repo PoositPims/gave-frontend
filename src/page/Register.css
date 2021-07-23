@@ -10,7 +10,7 @@ div {
   display: flex;
 }
 
-header .container {
+.headRegister .container {
   background-color: white;
   justify-content: space-between;
   display: flex;
@@ -18,11 +18,11 @@ header .container {
   color: #146aeb;
 }
 
-header span {
+.headRegister span {
   color: black;
 }
 
-header .container {
+.headRegister .container {
   justify-content: space-between;
 }
 
@@ -48,12 +48,7 @@ header .container {
   color: black;
   flex-direction: column;
   width: 360px;
-  /* margin: 0px;
-  padding: 0px; */
 }
-
-/* .name {
-} */
 
 .title {
   background-color: #146aeb;

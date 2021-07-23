@@ -1,5 +1,5 @@
 div {
-  outline: 1px dashed lime;
+  /* outline: 1px dashed lime; */
   margin: 0;
   /* padding: 0;  */
 }
@@ -10,17 +10,13 @@ div {
   display: flex;
 }
 
-/* containerCard1 { */
-/* width: 80%; */
-/* } */
-
 .brandingCard {
   margin-left: 135px;
 }
 
 /* header.................................................... */
 
-header .containerCard {
+.headCard .containerCard {
   background-color: #146aeb;
   justify-content: space-between;
   display: flex;
@@ -29,18 +25,18 @@ header .containerCard {
   /* width: 80%; */
 }
 
-header ul {
+.headCard ul {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-header li {
+.headCard li {
   padding: 0 20px;
 }
 
-header nav {
+.headCard nav {
   display: flex;
   align-items: flex-end;
 }
@@ -83,8 +79,6 @@ form > * {
 /* showcaseCard............................................ */
 
 .showcaseCard {
-  width: 80%;
-  margin: 0 auto;
   display: flex;
 }
 
@@ -108,23 +102,23 @@ form > * {
 }
 
 .price {
-  /* margin-left: 150px; */
-  margin: 0 20px 0 150px;
+  margin: 0 20px 0 40px;
 }
 
 .discount {
   border-style: solid;
-  margin: 0 20px 0 150px;
+  margin: 0 20px 0 40px;
   background-color: #146aeb;
   color: white;
   text-align: center;
   border: none;
   border-radius: 7px;
-  /* display: flex; */
 }
 
 img {
   margin-left: 20px;
+  width: 150px;
+  height: 150px;
 }
 
 .navShowcase {
@@ -134,10 +128,179 @@ img {
 .navShowcase2 {
   display: flex;
   justify-content: space-between;
-  /* margin-left: 0;   */
 }
 
 .navShowcase2 h5 {
-  /* align-items: flex-end; */
   margin: 0;
+}
+
+.containerCheckBox {
+  display: block;
+  position: relative;
+  margin: 15px;
+  font-size: 22px;
+  top: 0;
+  left: 0;
+}
+
+/* payment box............................... */
+.pictureAmount {
+  display: flex;
+  /* margin: 0px; */
+}
+
+.pictureAmount .amount {
+  margin-left: 50px;
+}
+
+.pictureAmount select {
+  margin: 15px 0 0 40px;
+  /* margin-left: 40px; */
+}
+
+select {
+  position: relative;
+  font-family: Arial;
+  height: 40px;
+  width: 200px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.twoBox {
+  display: flex;
+  margin-left: 135px;
+}
+
+.boxPayment {
+  margin: 72px 0 0 20px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0;
+}
+
+.paymentHead {
+  border-bottom: solid;
+  border-width: 1px;
+  background-color: #146aeb;
+  color: white;
+  border-color: black;
+  padding: 5px;
+  margin: 0;
+  width: 310px;
+}
+
+.paymentPrice {
+  display: flex;
+}
+
+.price480 h4 {
+  margin-left: 50px;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: flex-end; */
+}
+
+.dash {
+  justify-content: flex-end;
+  margin-left: 200px;
+}
+
+.dash2 {
+  margin-left: 228px;
+}
+
+.inputCode {
+  width: 170px;
+  height: 15px;
+  padding: 4px;
+  border-radius: 4px;
+  border-width: 1px;
+  /* border: none; */
+}
+
+.buttonCode {
+  height: 23px;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+  margin-left: 30px;
+}
+
+.totalPrice {
+  display: flex;
+}
+
+.pricePayment {
+  margin: 0 20px 0 120px;
+}
+
+.discountPayment {
+  border-style: solid;
+  margin: 0 20px 0 120px;
+  background-color: #146aeb;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+}
+
+.priceDiscount {
+  margin-top: 10px;
+}
+
+.paymentH {
+  margin-left: 10px;
+}
+
+.payButton {
+  height: 30px;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 0 20px;
+  margin-left: 90px;
+}
+
+/* รายการแนะนำ.................. */
+
+.containerSuggest {
+  width: 80.25%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10px;
+}
+/* .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+} */
+
+.suggest {
+  display: flex;
+  justify-content: space-around;
+}
+
+.suggestItem {
+  background-color: papayawhip;
+}
+
+.containerSuggest {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+img {
+  margin: 0px;
+}
+
+.itemInfo h5 {
+  text-align: center;
+  margin: 0px;
 }

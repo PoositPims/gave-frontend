@@ -12,7 +12,7 @@ import {Link} from "react-router-dom";
 function ContactUs() {
     return (
         <div>            
-            <header>
+            <header className='headContact'>
                 <div className ='container'>
                 <div className="branding"><h1>GAVE <span>ติดต่อเรา</span></h1></div>                
                 </div>
