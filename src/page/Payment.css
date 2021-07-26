@@ -1,0 +1,125 @@
+div {
+  /* outline: 1px dashed lime; */
+  margin: 0;
+}
+
+.allBodyPayment {
+  background-color: #f2f2f2;
+}
+
+/* paymentMethod............................ */
+
+.paymentMethod {
+  background-color: white;
+  /* width: 90%; */
+  /* margin: auto; */
+}
+
+.methodHead {
+  background-color: #146aeb;
+  color: white;
+}
+
+.methodHead h2 {
+  padding: 5px;
+}
+
+.checkBoxMethod {
+  margin: 10px;
+}
+
+.payByCard {
+  margin: 20px 0 0 40px;
+}
+
+.payByCard .inputInfoLong {
+  margin-bottom: 20px;
+}
+
+.cardNumber img {
+  width: 35px;
+  height: 35px;
+  /* margin: 5px; */
+}
+
+.pictureCard {
+  margin-left: 10px;
+}
+
+.cardNumber {
+  display: flex;
+}
+
+.payByCard {
+  margin: 20px 0 0 40px;
+}
+
+.detailCardInfo p {
+  margin: 0px;
+}
+
+.detailCard .inputInfoLong {
+  width: 70px;
+}
+
+.detailCard {
+  display: flex;
+}
+
+.cvv {
+  margin-left: 20px;
+}
+
+.checkBoxMethod label {
+  margin-left: 5px;
+}
+
+/* paySummary..................... */
+
+.twoSide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paySummary {
+  background-color: white;
+  width: 400px;
+  height: 260px;
+  /* width: 90%; */
+  /* margin: auto; */
+}
+
+.methodHead h2 {
+  margin-top: 0px;
+}
+
+.sumPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.sumPriceNum {
+  margin-right: 10px;
+}
+
+.sumPrice .discountPayment {
+  margin: 0px;
+}
+
+.continuePay {
+  height: 30px;
+  background-color: #ffa500;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+  /* margin-left: 10px; */
+  /* margin-top: 8px; */
+}
+
+.buttonPay {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

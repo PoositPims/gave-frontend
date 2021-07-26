@@ -333,7 +333,7 @@ function Sales() {
 
                 <div className='delvieryBrandsales'>
 
-<div className='boxxx'>
+{/* <div className='boxxx'> */}
                 <div className='checkBox'>
                 <input type="checkbox" />
                 <label>Thailand Post</label>
@@ -354,7 +354,7 @@ function Sales() {
                 <label>J & T Express</label>
                 </div>
                     
-                </div>
+                {/* </div> */}
                 </div>             
                 </div>
                 </div>
@@ -374,10 +374,10 @@ function Sales() {
                 </div>
             </section>
             
-            </div>
             <footer className='footContactUs'>
                 <p>Copyright © 2021, GAVE Thailand</p>
             </footer>
+            </div>
         </div>
     )
 }

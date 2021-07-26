@@ -5,6 +5,7 @@ import Register from "./page/Register";
 import ContactUs from "./page/ContactUs";
 import Card from "./page/Card";
 import Sales from "./page/Sales";
+import Payment from "./page/Payment";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/ContactUs" component={ContactUs} />
           <Route path="/Card" component={Card} />
           <Route path="/Sales" component={Sales} />
+          <Route path="/Payment" component={Payment} />
         </Switch>
       </BrowserRouter>
     </div>
