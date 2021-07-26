@@ -1,12 +1,11 @@
 div {
-  outline: 1px dashed lime;
+  /* outline: 1px dashed lime; */
   margin: 0;
 }
-/* 
-.homepage {
-  border-color: red;
-  color: red;
-} */
+
+.allBody {
+  background-color: #f2f2f2;
+}
 
 .containerHome {
   width: 80%;
@@ -94,7 +93,7 @@ div {
 .bodyAdd {
   display: flex;
   justify-content: center;
-  /* background-color: red; */
+  background-color: white;
 }
 
 .bodyAdd1 {
@@ -128,6 +127,11 @@ div {
   display: flex;
   margin-top: 20px;
   justify-content: space-evenly;
+  background-color: white;
+}
+
+.category {
+  margin: 10px;
 }
 
 .category img {
@@ -146,18 +150,99 @@ div {
   text-align: center;
 }
 
-/* registerAd................. */
+/* suggest */
 
-/* .registerAd {
+.bestSold {
+  background-color: white;
+  /* display: flex; */
   width: 80%;
   margin: 0 auto;
-  background-color: red;
   margin-top: 20px;
-  display: flex;
 }
 
-.registerAd {
+.containerBestsold {
+  /* width: 80.25%; */
+  margin: 0 auto;
   display: flex;
+  /* margin-top: 10px; */
+  justify-content: space-around;
+}
+
+.bestsoldItem img {
+  margin: 0px;
+  width: 150px;
+  height: 150px;
+  /* margin-left: 20px; */
+}
+
+.bestsoldInfo h4 {
+  text-align: center;
+  margin: 0px;
+}
+
+.bestsoldInfo h5 {
+  text-align: center;
+  margin: 0px;
+}
+
+.bestsoldHead h3 {
+  /* margin: 20px 0 0 20px; */
+  margin-left: 20px;
+}
+
+/* daily recommend............ */
+
+.dailyRecommend {
+  width: 90%;
+  margin: 0 auto;
   margin-top: 20px;
+}
+
+.dailyCard {
+  background-color: white;
+  box-shadow: 2px 2px 2px silver;
+  border-radius: 4px;
+}
+
+.dailyCard img {
+  margin: 0px;
+  width: 150px;
+  height: 150px;
+}
+
+.dailyCard .dailyPic {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cardInfo h4 {
+  margin: 0px;
+}
+
+.cardInfo h5 {
+  margin: 10px 0px 0px 0px;
+  color: #146aeb;
+}
+
+.eachDailyCard {
+  display: flex;
   justify-content: space-evenly;
-} */
+  margin-top: 10px;
+}
+
+.dailyHead {
+  background-color: white;
+  height: 50px;
+}
+
+.dailyHead h3 {
+  background-color: white;
+  margin: 20px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 20px;
+}

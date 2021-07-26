@@ -1,0 +1,288 @@
+div {
+  /* outline: 1px dashed lime; */
+  margin: 0;
+}
+
+.allBodySales {
+  background-color: #f2f2f2;
+}
+
+.bigHead {
+  width: 80%;
+  margin: auto;
+}
+
+/* general info..................................................... */
+
+.generalInfo {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.gerneralHead {
+  margin: 10px;
+}
+
+.gerneralHead h3 {
+  margin: 0px;
+}
+
+.nameSales h3 {
+  margin: 0px;
+}
+
+.productName {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.inputInfoLong {
+  width: 400px;
+  height: 18px;
+  padding: 4px;
+}
+
+.categorieSales {
+  display: flex;
+}
+
+.categorieSales2 h3 {
+  margin: 0px;
+}
+
+.inputEach {
+  height: 130px;
+  width: 130px;
+  border: 1px dashed black;
+}
+
+.inputEach img {
+  width: 50px;
+  height: 50px;
+  margin: 40px;
+}
+
+.inputEach2 {
+  height: 130px;
+  width: 130px;
+}
+
+.inputEach2 img {
+  width: 50px;
+  height: 50px;
+  margin: 40px;
+}
+
+.inputPictureSales p {
+  margin: 0px;
+  text-align: center;
+}
+
+.eachPictureBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.eachTopic {
+  display: flex;
+  margin: 20px 0 20px 20px;
+}
+
+.salesVideo h3 {
+  margin: 0px;
+  text-align: center;
+}
+
+.videoOptional {
+  color: grey;
+}
+
+.inputInfoVeryLong {
+  width: 600px;
+  height: 200px;
+  padding: 4px;
+}
+
+/* specificInfo.......................................... */
+
+.specificInfo {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.specificInfo input {
+  width: 200px;
+  height: 18px;
+  padding: 4px;
+}
+
+.specificInfo .productName {
+  /* background-color: red; */
+  width: 450px;
+  justify-content: space-between;
+}
+
+/* รอเปลี่ยน................................................... */
+
+/* .productName2 {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  margin-left: 10px;
+} */
+
+/* salesInfo........................ */
+.salesInfo {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.salesInfo input {
+  width: 200px;
+  height: 18px;
+  padding: 4px;
+}
+
+.salesInfo .productName {
+  /* background-color: red; */
+  width: 450px;
+  justify-content: space-between;
+}
+
+.salesInfo .eachPictureBox {
+  width: 450px;
+  /* justify-content: space-between; */
+}
+
+/* dealInfoSeles.............. */
+
+.dealInfoSeles {
+  background-color: white;
+  margin: auto;
+  width: 90%;
+}
+
+.dealInfoSeles input {
+  width: 200px;
+  height: 18px;
+  padding: 4px;
+}
+
+/* .dealInfoSeles .productName {
+  width: 450px;
+} */
+.dealInfoSeles .productName {
+  /* background-color: red; */
+  width: 450px;
+  justify-content: space-between;
+}
+
+.dealInfoSeles .eachPictureBox {
+  width: 450px;
+  /* justify-content: space-between; */
+}
+
+/* deliverSales............. */
+
+.deliverSales {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.deliveryCheckBox {
+  display: flex;
+}
+
+.communityLeader {
+  display: flex;
+  /* background-color: red; */
+}
+
+.delvieryBrandsales .checkBox {
+  margin: 5px;
+}
+
+.delvieryBrandsales {
+  width: 200px;
+  height: 120px;
+  /* background-color: red; */
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.warningDelivery p {
+  color: red;
+  margin: 0px;
+  /* justify-content: space-between; */
+}
+
+.deliverSales .communityLeader {
+  width: 600px;
+  justify-content: space-between;
+}
+
+.deliverSales .deliveryCheckBox {
+  width: 600px;
+  justify-content: space-between;
+}
+
+.deliverSales .eachTopic {
+  margin-bottom: 10px;
+}
+
+/* button.............................................. */
+
+.salesButton {
+  margin: auto;
+  width: 90%;
+  background-color: #f2f2f2;
+}
+
+.eachButton {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  /* background-color: red; */
+}
+
+/* .cancelButton,
+.saveHideButtin,
+.saveSellButton {
+  margin: ;
+} */
+
+.cancelButton {
+  height: 30px;
+  background-color: darkgray;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+  /* margin-top: 8px; */
+}
+
+.saveHideButtin {
+  height: 30px;
+  background-color: #146aeb;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+  margin-left: 10px;
+  /* margin-top: 8px; */
+}
+
+.saveSellButton {
+  height: 30px;
+  background-color: #146aeb;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+  margin-left: 10px;
+  /* margin-top: 8px; */
+}

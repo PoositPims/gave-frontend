@@ -3,7 +3,8 @@ import "./Homepage.css"
 import {Link} from "react-router-dom";
 
 function Homepage() {
-  return <div>    
+  return <div> 
+    <div className='allBody'>  
     <section className='head'>
       <header className='homeHead'>         
           <div className='containerHome'>
@@ -102,43 +103,251 @@ function Homepage() {
        
       </section> */}
 
-<section className='suggest'>            
-            <div className='containerSuggest'>
-                    <div className='suggestItem'>
+<section className='bestSold'>
+  <div className='suggestPart'>
+            <div className='bestsoldHead'>
+              <h3>ดีลขายดีประจำสัปดาห์</h3>
+            </div>            
+            <div className='containerBestsold'>
+                    <div className='bestsoldItem'>
                         <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                        <div className='itemInfo'>
+                        <div className='bestsoldInfo'>
                         <h4>ข้าวตราฉัตรราคาถูก</h4>
                         <h5>THB 99 </h5>
                         </div>
                     </div>
-                    <div className='suggestItem'>
+                    <div className='bestsoldItem'>
                         <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                        <div className='itemInfo'>
+                        <div className='bestsoldInfo'>
                         <h4>ข้าวตราฉัตรราคาถูก</h4>
                         <h5>THB 99 </h5>
                         </div>
                     </div>
-                    <div className='suggestItem'>
+                    <div className='bestsoldItem'>
                         <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                        <div className='itemInfo'>
+                        <div className='bestsoldInfo'>
                         <h4>ข้าวตราฉัตรราคาถูก</h4>
                         <h5>THB 99 </h5>
                         </div>
                     </div>
-                    <div className='suggestItem'>
+                    <div className='bestsoldItem'>
                         <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                        <div className='itemInfo'>
+                        <div className='bestsoldInfo'>
                         <h4>ข้าวตราฉัตรราคาถูก</h4>
                         <h5>THB 99 </h5>
                         </div>
                     </div>                    
-                </div>             
+                </div> 
+                </div>            
             </section>
 
-      {/* <footer className='footRegister'>
+            <section className='dailyRecommend'>
+
+              <div className='recommendItem'>
+              
+              <div className='dailyHead'>
+              <h3>ดีลแนะนำประจำวัน</h3>            
+              </div>
+
+              <div className='eachDailyCard'>  
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+                
+                </div> 
+
+                <div className='eachDailyCard'>  
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+                
+                </div> 
+
+                <div className='eachDailyCard'>  
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+
+                <div className='dailyCard'>
+                  <div className='dailyPic'>
+                  <img src="paris.jpg" alt="" />
+                  </div>
+                  <div className='cardInfo'>
+                    <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
+                    <h5> THB 40,000</h5>
+                  </div>
+                </div>
+                
+                </div> 
+                
+              </div>
+            </section>
+
+      <footer className='footRegister'>
                 <p>Copyright © 2021, GAVE Thailand</p>
-            </footer> */}
-      
+            </footer>
+   </div>    
   </div>;
 }
 

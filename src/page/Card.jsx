@@ -118,7 +118,7 @@ function Card() {
             </div>
             <section className='suggest'>            
             <div className='containerSuggest'>
-                    <div className='suggestItem'>
+                    <div className='suggestItem'>                        
                         <img src="rice.jpg" alt="ข้าวตราฉัตร" />
                         <div className='itemInfo'>
                         <h4>ข้าวตราฉัตรราคาถูก</h4>
