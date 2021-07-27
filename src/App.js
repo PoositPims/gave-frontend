@@ -6,6 +6,7 @@ import ContactUs from "./page/ContactUs";
 import Card from "./page/Card";
 import Sales from "./page/Sales";
 import Payment from "./page/Payment";
+import Purchase from "./page/Purchase";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Card" component={Card} />
           <Route path="/Sales" component={Sales} />
           <Route path="/Payment" component={Payment} />
+          <Route path="/Purchase" component={Purchase} />
         </Switch>
       </BrowserRouter>
     </div>

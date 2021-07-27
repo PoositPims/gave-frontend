@@ -1,0 +1,237 @@
+div {
+  /* outline: 1px dashed lime; */
+  margin: 0;
+}
+
+.bigHead span {
+  color: #146aeb;
+  font-weight: bold;
+}
+
+.bigWaitingToBuy {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.waitingToBuy {
+  background-color: white;
+  /* width: 80%; */
+  /* margin: auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftWaiting {
+  margin-left: 20px;
+}
+
+.rightWaiting {
+  margin-right: 20px;
+}
+
+.soldBy p {
+  margin: 10px;
+  /* padding: 10px; */
+}
+
+.waitingPicture2 img {
+  width: 250px;
+  height: 250px;
+}
+
+.waitingPicture3 img {
+  width: 100px;
+  height: 100px;
+}
+
+.shareDeal {
+  display: flex;
+}
+
+.shareDeal p {
+  margin: 0px;
+}
+
+.shareDealApp img {
+  width: 25px;
+  height: 25px;
+  margin: 0 0 0 10px;
+}
+
+.amountAndShare {
+  margin: 10px;
+}
+
+.pricePurchase {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pricePurchase h2 {
+  margin: 0 0 0 10px;
+}
+.pricePurchase .discountPayment {
+  width: 80px;
+  height: 20px;
+  margin: 5px 0 0 10px;
+  /* margin-top: 5px; */
+}
+
+.pricePurchase span {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.EachinfoPurchase {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* width: 400px; */
+}
+
+.EachinfoPurchase2 {
+  width: 350px;
+}
+
+.productPurName h2 {
+  margin: 10px 0 10px 0;
+}
+
+.eachButtonPur {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.intoCardButton {
+  height: 30px;
+  background-color: white;
+  color: #146aeb;
+  border: 2px solid #146aeb;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.purchaseButton {
+  height: 30px;
+  background-color: #146aeb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin-left: 10px;
+}
+
+.eachButtonPur img {
+  width: 30px;
+  height: 30px;
+}
+
+.purchaseWarantee {
+  text-align: center;
+  /* margin: 0px; */
+  color: #146aeb;
+  font-weight: bold;
+}
+
+.purchaseWarantee footer p {
+  margin: 0px;
+}
+
+.purchaseWarantee footer {
+  margin-top: 5px;
+}
+
+/* specificInfo................................... */
+
+.specificInfoPur {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.gerneralHeadPur h3 {
+  margin: 10px;
+  padding: 10px;
+  color: #146aeb;
+}
+
+.EachinfoSpecific {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 0 10px;
+}
+
+.EachinfoSpecific2 {
+  width: 800px;
+}
+
+/* .EachinfoPurchase {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 400px;
+}
+
+.EachinfoPurchase2 {
+  width: 350px;
+} */
+
+/* productDetailPur............................................ */
+
+.productDetailPur {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.eachDetailPur {
+  margin: 0 0 0 10px;
+}
+
+/* customerReview........................................... */
+
+.reviewAndAd {
+  /* background-color: white; */
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customerReview {
+  background-color: white;
+  /* width: 80%; */
+  width: 880px;
+  /* margin: auto; */
+}
+
+.gerneralHeadPur h3 {
+  margin: 0px;
+}
+
+.reviewPoint {
+  margin: 10px;
+  color: grey;
+}
+
+.reviewPoint p {
+  margin: 0px;
+}
+
+.reviewAndAd {
+  display: flex;
+}
+
+.firstAd img {
+  height: 200px;
+  width: 180px;
+}
+
+.secondAd img {
+  height: 200px;
+  width: 180px;
+}
