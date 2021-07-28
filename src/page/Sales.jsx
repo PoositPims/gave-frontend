@@ -12,10 +12,10 @@ function Sales() {
                 <nav className='Home'>
                     <div className='menuCard'>
                     <ul>
-                    <li>ขายสินค้ากับ GAVE</li>
+                    <li><Link className='buttonEffect'  to="/Sales">ขายสินค้ากับ GAVE</Link></li>
                     <li>การแจ้งเตือน</li>
-                    <li>สมัครสมาชิก</li>
-                    <li>เข้าสู่ระบบ</li>
+                    <li> <Link className='buttonEffect' to="/Register">สมัครสมาชิก</Link></li>
+                    <li><Link className='buttonEffect' to="/Register">เข้าสู่ระบบ</Link></li>
                     </ul></div>                                
                 </nav>                
                 </div>              
@@ -29,26 +29,34 @@ function Sales() {
                 <div className='gerneralHead'>
                 <h2>ข้อมูลทั่วไป</h2>
                 </div>
+
                 <div className='eachTopic'>
                 <div className='productName'>
                 <div className='nameSales'>                   
                     <h3>ชื่อสินค้า</h3>
                 </div>
-                <input className = 'inputInfoLong' type="support" name = "support" placeholder='0/120' /> <br />
+                {/* <div className='productName2'> */}
+                <input className = 'inputInfoLong' type="support" name = "support" placeholder='0/120' /> 
+                {/* <br /> */}
+                {/* </div> */}
                 </div>
                 </div>
-
+                
 
                 <div className='eachTopic'>
                 <div className='categorieSales'>
                 <div className='categorieSales2'>                   
                     <h3>หมวดหมู่สินค้า</h3>
                 </div>
-                <input className = 'inputInfoLong' type="support" name = "support" placeholder='ค้นหาหมวดหมู่สินค้า' /> <br />
+                {/* <div> */}
+                <input className = 'inputInfoLong' type="support" name = "support" placeholder='ค้นหาหมวดหมู่สินค้า' /> 
+            {/* <br /> */}
+                {/* </div> */}
                 </div>
                 </div>
 
                 <div className='eachTopic'>
+                    <div className='bigSalesPicture'>
 
                     <div className='salesPicture'>                   
                     <h3>รูปภาพสินค้า</h3>
@@ -64,7 +72,7 @@ function Sales() {
 
                     <div className='inputPictureSales'>
                         <div className='inputEach'>
-                            <img src="add.png" alt="" />                            
+                            <img className='inputEachImg' src="add.png" alt="" />                            
                         </div>
                         <p>ภาพที่ 1</p>                        
                     </div>
@@ -82,7 +90,8 @@ function Sales() {
                         </div>
                         <p>เพิ่มรูปภาพ</p>                        
                     </div>
-                    </div>                
+                    </div>  
+                    </div>
                 </div>
                 
                 <div className='eachTopic'>

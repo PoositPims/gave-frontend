@@ -34,6 +34,7 @@ div {
 
 .productName {
   display: flex;
+  /* justify-content: space-between; */
   /* justify-content: space-around; */
 }
 
@@ -63,6 +64,12 @@ div {
   margin: 40px;
 }
 
+.inputEachImg {
+  width: 50px;
+  height: 50px;
+  margin: 40px;
+}
+
 .inputEach2 {
   height: 130px;
   width: 130px;
@@ -79,14 +86,49 @@ div {
   text-align: center;
 }
 
+.inputPictureSales {
+  margin-right: 20px;
+}
+
 .eachPictureBox {
   display: flex;
-  justify-content: space-evenly;
+  margin-left: 80px;
+  /* justify-content: space-evenly; */
 }
+
+/* .eachTopic .productName {
+  background-color: red;
+  justify-content: space-between;
+} */
 
 .eachTopic {
   display: flex;
   margin: 20px 0 20px 20px;
+}
+
+.generalInfo .productName {
+  /* background-color: red; */
+  width: 600px;
+  justify-content: space-between;
+}
+
+.generalInfo .categorieSales {
+  /* background-color: red; */
+  width: 600px;
+  justify-content: space-between;
+}
+
+.generalInfo .bigSalesPicture {
+  display: flex;
+  /* width: 700px; */
+  /* justify-content: space-between; */
+}
+
+.eachPictureBox .inputPictureSales {
+  /* display: flex; */
+  /* background-color: red; */
+  /* width: 140px; */
+  justify-content: flex-end;
 }
 
 .salesVideo h3 {
@@ -171,9 +213,6 @@ div {
   padding: 4px;
 }
 
-/* .dealInfoSeles .productName {
-  width: 450px;
-} */
 .dealInfoSeles .productName {
   /* background-color: red; */
   width: 450px;
@@ -286,3 +325,10 @@ div {
   margin-left: 10px;
   /* margin-top: 8px; */
 }
+
+.specificInfo input {
+  /* background-color: red; */
+  margin-right: 20px;
+}
+
+/* hi eiei */

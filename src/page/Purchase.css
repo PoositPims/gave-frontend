@@ -12,6 +12,7 @@ div {
   background-color: white;
   width: 80%;
   margin: auto;
+  border-radius: 20px;
 }
 
 .waitingToBuy {
@@ -20,6 +21,7 @@ div {
   /* margin: auto; */
   display: flex;
   justify-content: space-between;
+  border-radius: 20px;
 }
 
 .leftWaiting {
@@ -150,6 +152,7 @@ div {
   width: 80%;
   margin: auto;
   margin-top: 20px;
+  border-radius: 20px;
 }
 
 .gerneralHeadPur h3 {
@@ -165,7 +168,7 @@ div {
 }
 
 .EachinfoSpecific2 {
-  width: 800px;
+  width: 850px;
 }
 
 /* .EachinfoPurchase {
@@ -186,6 +189,7 @@ div {
   width: 80%;
   margin: auto;
   margin-top: 20px;
+  border-radius: 20px;
 }
 
 .eachDetailPur {
@@ -204,9 +208,14 @@ div {
 
 .customerReview {
   background-color: white;
+  border-radius: 20px;
   /* width: 80%; */
   width: 880px;
   /* margin: auto; */
+}
+
+.adInPurchase {
+  margin-left: 10px;
 }
 
 .gerneralHeadPur h3 {

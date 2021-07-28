@@ -47,22 +47,55 @@ function ContactUs() {
                 </div>
                 </div>
             </section>
+
             <section className='others'>
                 <div className='container'>
-                    {/* <div className='head'> */}
+                    
                     <h2 className='othersHead'>ติดตาม GAVE ในช่องทางอื่น ๆ</h2>
-                    {/* </div> */}
-                    {/* <div className='othersApp'> */}
+                    
+                    <div className='horAndVerApp'>
                     <div className='appHorizontal'>
-                    <img src="line.png" alt="line" />
-                    <div><h3>Facebook</h3></div>                                   
-                    <div><h3>Instagram</h3></div>
+                     <a 
+                     target="_blank"
+                     href="https://www.facebook.com"> 
+                    <div className='appHorizontal1'>
+                    <img src="facebook.png" alt="" />                    
+                    <div><h3>GAVE Thailand</h3></div>
                     </div>
-                    <div className='appVerticle'>                        
-                    <div><h3>Twitter</h3></div>                                
-                    <div><h3>Line</h3></div>
+                    </a> 
+                     <a 
+                     target="_blank"
+                     href="https://www.instagram.com/">
+                    <div className='appHorizontal2'>
+                    <img src="instagram.png" alt="" />                                   
+                    <div><h3>GAVE Thailand</h3></div>
                     </div>
-                    {/* </div> */}
+                    </a>                    
+                    </div>
+
+                    <div className='appVerticle'>
+
+                    <a 
+                    target='_blank'
+                    href="https://twitter.com/">
+                    <div className='appVerticle1'>
+                    <img src="twitter.png" alt="" />                        
+                    <div><h3>GAVE Thailand</h3></div>
+                    </div>
+                    </a>
+
+                    <a 
+                    target='_blank'
+                    href="https://line.me/th/">
+                    <div className='appVerticle2'>
+                    <img src="line.png" alt="" />                                
+                    <div><h3>GAVE.Thailand</h3></div>
+                    </div>
+                    </a>
+
+                    </div>
+
+                  </div>
                 </div>
             </section>           
             <footer className='footContactUs'>

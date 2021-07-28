@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Purchase.css"
+import {Link} from "react-router-dom";
 
 function Purchase() {
     return (
@@ -13,16 +14,20 @@ function Purchase() {
           <nav>
                   <div className='menuHome'>
                     <ul>
-                    <li>ขายสินค้ากับ GAVE</li>
+
+                    <li><Link className='buttonEffect'  to="/Sales">ขายสินค้ากับ GAVE</Link></li>
                     <li>การแจ้งเตือน</li>
-                    <li>สมัครสมาชิก</li>
-                    <li>เข้าสู่ระบบ</li>
+                    <li> <Link className='buttonEffect' to="/Register">สมัครสมาชิก</Link></li>
+                    <li><Link className='buttonEffect' to="/Register">เข้าสู่ระบบ</Link></li>
+                    
                     </ul>
                   </div>                                
                   </nav> 
                   </div>
       <div className="brandingHome">
+      <Link className= 'buttonEffect2' to='/Homepage'>
         <h1>GAVE</h1>
+        </Link>
         <div className='middleHead'>                            
                   <h3>สงขลา</h3> 
                   <div className='searchHome'><form action="">                           
@@ -33,7 +38,8 @@ function Purchase() {
                   </div> 
                   <div className='homeIcon'>
                     <img src="wallet.png" alt="wallet" />
-                    <img src="shopping-cart.png" alt="shopping-cart" />                    
+                    <Link  className='buttonEffect' to ="/Card">
+                    <img src="shopping-cart.png" alt="shopping-cart" /></Link>                   
                   </div>                                               
             </div>
             </div>         
@@ -74,10 +80,30 @@ function Purchase() {
                 <p>แชร์ดีล :</p>
               </div>
               <div className='shareDealApp'>
-                <img src="facebook.png" alt="" />
-                <img src="instagram.png" alt="" />
-                <img src="twitter.png" alt="" />
-                <img src="line.png" alt="" />
+                
+              <a
+            // target="_blank"
+            href="https://www.facebook.com"          >
+            <img src="facebook.png" alt="" />
+            </a>
+
+             <a
+            target="_blank"
+            href="https://www.instagram.com/" >
+            <img src="instagram.png" alt="" />
+            </a>       
+
+             <a
+            target="_blank"
+            href="https://twitter.com/" >
+            <img src="twitter.png" alt="" />
+            </a> 
+
+             <a
+            target="_blank"
+            href="https://line.me/th/" >
+            <img src="line.png" alt="" />
+            </a>                            
               </div>
               </div>
               </div>
@@ -139,12 +165,17 @@ function Purchase() {
 
                   <div className='purchaseButon'>
                   <div className='eachButtonPur'>
+                    
                     <div>
-                      
+                    <Link  className='buttonEffect' to='/Card'>     
                 <button className='intoCardButton'>เพิ่มไปยังรถเข็น</button>
+                </Link>
                     </div>
+                    
                     <div>
+                <Link  className='buttonEffect' to='/Payment'>
                 <button className='purchaseButton'>ซื้อสินค้า</button>
+                </Link>
                     </div>
                 </div>
                     </div>      

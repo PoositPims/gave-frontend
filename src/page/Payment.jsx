@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Payment.css"
+import {Link} from "react-router-dom";
 
 function Payment() {
     return (
@@ -11,11 +12,17 @@ function Payment() {
                 <nav className='Home'>
                     <div className='menuCard'>
                     <ul>
-                    <li>ขายสินค้ากับ GAVE</li>
+
+                    <li><Link  className='buttonEffect'  to="/Sales">
+                    ขายสินค้ากับ GAVE
+                      </Link></li>
+
                     <li>การแจ้งเตือน</li>
-                    <li>สมัครสมาชิก</li>
-                    <li>เข้าสู่ระบบ</li>
-                    </ul></div>
+                    <li> <Link className='buttonEffect' to="/Register">สมัครสมาชิก</Link></li>
+                    <li><Link className='buttonEffect' to="/Register">เข้าสู่ระบบ</Link></li>  
+                    
+                    </ul>
+                    </div>
                     <div className='searchCard'><form action="">                           
                 <input className = 'supportCard' type="support" name = "support" placeholder='Search help topics' /> <br />
                 <button className='sentButtonCard' type='submit'>Sent</button>
@@ -125,7 +132,7 @@ function Payment() {
             </div>
               </div>
               <div className='buttonPay'>
-            <button className='continuePay'>ดำเนินการชำระเงิน</button>
+            <button className='continuePay'>ชำระเงิน</button>
               </div>
           </section>
           </div>

@@ -12,16 +12,24 @@ function Homepage() {
           <nav>
                   <div className='menuHome'>
                     <ul>
-                    <li>ขายสินค้ากับ GAVE</li>
+                      
+                    <li><Link  className='buttonEffect'  to="/Sales">
+                    ขายสินค้ากับ GAVE
+                      </Link></li>
+
                     <li>การแจ้งเตือน</li>
-                    <li>สมัครสมาชิก</li>
-                    <li>เข้าสู่ระบบ</li>
-                    </ul>
+                    <li> <Link className='buttonEffect' to="/Register">สมัครสมาชิก</Link></li>
+                    <li><Link className='buttonEffect' to="/Register">เข้าสู่ระบบ</Link></li>                 
+                </ul>
                   </div>                                
                   </nav> 
                   </div>
       <div className="brandingHome">
+        
+        <Link className= 'buttonEffect2' to='/Homepage'>
         <h1>GAVE</h1>
+        </Link>
+
         <div className='middleHead'>                            
                   <h3>สงขลา</h3> 
                   <div className='searchHome'><form action="">                           
@@ -32,7 +40,8 @@ function Homepage() {
                   </div> 
                   <div className='homeIcon'>
                     <img src="wallet.png" alt="wallet" />
-                    <img src="shopping-cart.png" alt="shopping-cart" />                    
+                    <Link  className='buttonEffect' to ="/Card">
+                    <img src="shopping-cart.png" alt="shopping-cart" /></Link>                    
                   </div>                                               
       </div>
       </div>         
@@ -109,6 +118,15 @@ function Homepage() {
               <h3>ดีลขายดีประจำสัปดาห์</h3>
             </div>            
             <div className='containerBestsold'>
+            <Link  className='buttonEffect' to="/Purchase">
+                    <div className='bestsoldItem'>
+                        <img src="bottle.jpg" alt="น้ำดื่มคริสตัล" />
+                        <div className='bestsoldInfo'>
+                        <h4>น้ำดื่มคริสตัล</h4>
+                        <h5>THB 480 </h5>
+                        </div>
+                    </div>
+                    </Link>                    
                     <div className='bestsoldItem'>
                         <img src="rice.jpg" alt="ข้าวตราฉัตร" />
                         <div className='bestsoldInfo'>
@@ -116,13 +134,8 @@ function Homepage() {
                         <h5>THB 99 </h5>
                         </div>
                     </div>
-                    <div className='bestsoldItem'>
-                        <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                        <div className='bestsoldInfo'>
-                        <h4>ข้าวตราฉัตรราคาถูก</h4>
-                        <h5>THB 99 </h5>
-                        </div>
-                    </div>
+                    
+
                     <div className='bestsoldItem'>
                         <img src="rice.jpg" alt="ข้าวตราฉัตร" />
                         <div className='bestsoldInfo'>
