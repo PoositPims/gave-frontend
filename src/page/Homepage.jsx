@@ -2,6 +2,8 @@ import React from "react";
 import "./Homepage.css";
 import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
+import BestWeeklyDeal from "../components/BestWeeklyDeal";
+import CategoryCard from "../components/CategoryCard";
 
 function Homepage() {
   return (
@@ -85,47 +87,35 @@ function Homepage() {
         </section>
 
         <div className="allCategory">
-          <div className="category">
-            <div className="categoryPic">
-              <img src="groceries.png" alt="" />
-            </div>
-            <h5>อุปโภค บริโภค </h5>
-          </div>
+          <CategoryCard
+            CategoryPic="groceries.png"
+            CategoryName="อุปโภค บริโภค"
+          />
 
-          <div className="category">
-            <div className="categoryPic">
-              <img src="customer-service.png" alt="" />
-            </div>
-            <h5>บริการต่าง ๆ</h5>
-          </div>
+          <CategoryCard
+            CategoryPic="customer-service.png"
+            CategoryName="บริการต่าง ๆ"
+          />
 
-          <div className="category">
-            <div className="categoryPic">
-              <img src="burger.png" alt="" />
-            </div>
-            <h5>อาหารและเครื่องดื่ม</h5>
-          </div>
+          <CategoryCard
+            CategoryPic="burger.png"
+            CategoryName="อาหารและเครื่องดื่ม"
+          />
 
-          <div className="category">
-            <div className="categoryPic">
-              <img src="flight.png" alt="" />
-            </div>
-            <h5>การท่องเที่ยวและประสบการณ์ต่าง ๆ</h5>
-          </div>
+          <CategoryCard
+            CategoryPic="flight.png"
+            CategoryName="การท่องเที่ยวและประสบการณ์ต่าง ๆ"
+          />
 
-          <div className="category">
-            <div className="categoryPic">
-              <img src="clothes-rack.png" alt="" />
-            </div>
-            <h5>เสื้อผ้าและสินค้าแฟชัน</h5>
-          </div>
+          <CategoryCard
+            CategoryPic="clothes-rack.png"
+            CategoryName="เสื้อผ้าและสินค้าแฟชัน"
+          />
 
-          <div className="category">
-            <div className="categoryPic">
-              <img src="multiscreen.png" alt="" />
-            </div>
-            <h5>สินค้าอิเล็กทรอนิกส์</h5>
-          </div>
+          <CategoryCard
+            CategoryPic="multiscreen.png"
+            CategoryName="สินค้าอิเล็กทรอนิกส์"
+          />
         </div>
 
         {/* <section className='registerAd'>
@@ -135,40 +125,38 @@ function Homepage() {
         <section className="bestSold">
           <div className="suggestPart">
             <div className="bestsoldHead">
-              <h3>ดีลขายดีประจำสัปดาห์</h3>
+              <h3>ดีลขายดีประจำสัปดาห์ </h3>
             </div>
             <div className="containerBestsold">
               <Link className="buttonEffect" to="/Purchase">
-                <div className="bestsoldItem">
-                  <img src="bottle.jpg" alt="น้ำดื่มคริสตัล" />
-                  <div className="bestsoldInfo">
-                    <h4>น้ำดื่มคริสตัล</h4>
-                    <h5>THB 480 </h5>
-                  </div>
-                </div>
+                <BestWeeklyDeal
+                  productPic="bottle.jpg"
+                  productName="น้ำดื่มคริสตัล"
+                  productPrice="THB 480"
+                />
               </Link>
-              <div className="bestsoldItem">
-                <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                <div className="bestsoldInfo">
-                  <h4>ข้าวตราฉัตรราคาถูก</h4>
-                  <h5>THB 99 </h5>
-                </div>
-              </div>
 
-              <div className="bestsoldItem">
-                <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                <div className="bestsoldInfo">
-                  <h4>ข้าวตราฉัตรราคาถูก</h4>
-                  <h5>THB 99 </h5>
-                </div>
-              </div>
-              <div className="bestsoldItem">
-                <img src="rice.jpg" alt="ข้าวตราฉัตร" />
-                <div className="bestsoldInfo">
-                  <h4>ข้าวตราฉัตรราคาถูก</h4>
-                  <h5>THB 99 </h5>
-                </div>
-              </div>
+              <Link className="buttonEffect" to="/Purchase">
+                <BestWeeklyDeal
+                  productPic="rice.jpg"
+                  productName="ข้าวสาร"
+                  productPrice="THB 100"
+                />
+              </Link>
+              <Link className="buttonEffect" to="/Purchase">
+                <BestWeeklyDeal
+                  productPic="vegetable.png"
+                  productName="ผักราคาถูก"
+                  productPrice="THB 100"
+                />
+              </Link>
+              <Link className="buttonEffect" to="/Purchase">
+                <BestWeeklyDeal
+                  productPic="dettol.jpg"
+                  productName="น้ำยาฆ่าเชื้อ"
+                  productPrice="THB 134"
+                />
+              </Link>
             </div>
           </div>
         </section>
@@ -180,196 +168,102 @@ function Homepage() {
             </div>
 
             <div className="eachDailyCard">
-              {/* <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div> */}
-              <ProductCard />
-
-              {/* <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div> */}
-              <ProductCard />
-
-              {/* <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div> */}
-              <ProductCard />
-
-              {/* <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div> */}
-              <ProductCard />
-
-              {/* <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div> */}
-              <ProductCard />
-
-              {/* <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div> */}
-              <ProductCard />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
             </div>
 
             <div className="eachDailyCard">
-              {/* <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div> */}
-              <ProductCard />
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
             </div>
 
             <div className="eachDailyCard">
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
-
-              <div className="dailyCard">
-                <div className="dailyPic">
-                  <img src="paris.jpg" alt="" />
-                </div>
-                <div className="cardInfo">
-                  <h4>ดีลท่องเที่ยวฝรั่งเศสกลุ่ม</h4>
-                  <h5> THB 40,000</h5>
-                </div>
-              </div>
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
+              <ProductCard
+                productPic="paris.jpg"
+                productName="ดีลท่องเที่ยวฝรั่งเศสกลุ่ม"
+                productPrice="THB 40,000"
+              />
             </div>
           </div>
         </section>
